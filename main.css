@@ -180,7 +180,7 @@ main {
     width: 70%;
     min-width: 235px;
     max-width: 500px;
-    height: 360px;
+    height: 300px;
     margin:0 auto;
 }
 
@@ -194,6 +194,15 @@ main {
     color: var(--bitcoin-orange);
 }
 
+
+.exchange__monedas--title--blue {
+    margin-bottom: 15px;
+    font-size: 1.8rem;
+    font-weight: 700;
+    line-height: 2.4rem;
+    text-align: left;
+    color: var(--secondary-blue);
+}
 
 .exchange__table .table__container {
     width: 90%;
@@ -278,4 +287,30 @@ main {
 }
 
 
+.exchange__table .exchange__date {
+    width: 190px;
+    height: 36px;
+    margin: 0 auto;
+    padding: 8px;
+    background-color: var(--soft-orange);
+    border-radius: 8px;
+}
+
+
+.exchange__table .exchange__date--blue {
+    width: 190px;
+    height: 36px;
+    margin: 0 auto;
+    padding: 8px;
+    background-color: var(--soft-blue);
+    border-radius: 8px;
+}
+
+
+.exchange__date p {
+    margin-top: 3px;
+    font-size: 1.2rem;
+    line-height: 1.5rem;
+    color: var(--warm-black);
+}
 
