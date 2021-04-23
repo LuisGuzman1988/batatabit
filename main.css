@@ -449,3 +449,121 @@ main {
     color: var(--just-white);
     text-align: center;
 }
+
+
+.main__plans-container {
+    width: 100%;
+    min-width: 320px;
+    height: auto;
+    padding: 65px 0;
+    background-color: #E5E5E5; 
+    text-align: center;
+
+}
+
+
+.plans__title {
+    width: 90%;
+    min-width: 288px;
+    margin: 0 auto;
+}
+
+
+.plans__title h2 {
+    margin-bottom: 25px;
+    font-size: 2.4rem;
+    font-weight: 700;
+    line-height: 2.6rem;
+    color: var(--warm-black);
+}
+
+
+.plans__title p {
+    font-size: 1.4rem;
+    font-weight: 500;
+    line-height: 1.8rem;
+    color: #757575;
+}
+
+
+.plans-container--slider {
+    
+}
+
+
+.plans-container-card {
+    position: relative;
+    display: inline-block;
+    width: 190px;
+    max-width: 300px;
+    min-height: 250px;
+    margin: 50px 10px;
+    padding: 15px;
+    background-color: var(--just-white);
+    box-shadow: 0px 4px 8px rgb(89 73 30 / 16%);
+    border-radius: 8px;
+}
+
+
+.plans-container-card .recomendado {
+    position: absolute;
+    top: -15px;
+    left: calc(50% - 50px);
+    padding: 10px;
+    font-size: 1.2rem;
+    font-weight: 700;
+    line-height: 1.4rem;
+    color: var(--just-white);
+    background-color: var(--bitcoin-orange);
+    border-radius: 8px;
+}
+
+
+.plans__contenido h3 {
+    margin-top: 16px;
+    font-size: 1.4rem;
+    font-weight: 500;
+    line-height: 1.8rem;
+    color: #000000;
+}
+
+
+.plans__contenido .numero {
+    position: relative;
+    margin: 8px 0px 16px;
+    font-size: 5.2rem;
+    font-weight: 700;
+    font-family: 'Inter', sans-serif;
+    line-height: 6.2rem;
+    color: #000000;
+}
+
+
+.plans__contenido span {
+    position: absolute;
+    top: 12px;
+    left: 36px;
+    font-size: 1.2rem;
+    font-weight: 500;
+    font-family: 'Inter', sans-serif;
+    line-height: 1.4rem;
+    color: #363636;
+}
+
+
+.plans__contenido .restri {
+    font-size: 1.2rem;
+    font-weight: 500;
+    font-family: 'Inter', sans-serif;
+    line-height: 1.4rem;
+    color: #757575;
+}
+
+
+.plans__contenido button {
+
+}
+
+
+
+
