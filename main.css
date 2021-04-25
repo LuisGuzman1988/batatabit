@@ -500,7 +500,7 @@ main {
     display: inline-block;
     width: 70%;
     max-width: 300px;
-    min-width: 240px;
+    min-width: 190px;
     height: 256px;
     margin: 50px 5px;
     padding: 15px;
@@ -548,7 +548,7 @@ main {
 .plans__contenido span.dollar {
     position: absolute;
     top: 12px;
-    left: 62px;
+    left: 39px;
     font-size: 1.2rem;
     font-weight: 500;
     font-family: 'Inter', sans-serif;
@@ -567,7 +567,7 @@ main {
 
 
 .plans__contenido button {
-    margin: 15px;
+    margin: 15px auto;
     padding: 15px 16px;
     font-size: 1.4rem;
     font-weight: 700;
@@ -577,6 +577,7 @@ main {
     background-color: var(--off-white);
     border: 2px solid var(--bitcoin-orange);
     border-radius: 4px;
+    width: 162px;
 }
 
 
