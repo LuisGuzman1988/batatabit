@@ -169,10 +169,20 @@ main {
 }
 
 
+.tablas-scrool {
+    display: flex;
+    width: 70%;
+    margin: 0 auto;
+    overflow-x: scroll;
+    overscroll-behavior-x: contain;
+    scroll-snap-type: x proximity;
+}
+
 .exchange__table {
     width: 100%;
     height: auto;
     margin-top: 50px;
+    scroll-snap-align: center;
 }
 
 
